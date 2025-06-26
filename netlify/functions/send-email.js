@@ -24,7 +24,7 @@ exports.handler = async (event, context) => {
 
     await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'tucorreo@ejemplo.com',
+      to: 'marialuna.garcia-arcicollar@a.vedrunasevillasj.es',
       subject,
       html: `
         <p><strong>Nombre:</strong> ${nombre}</p>
