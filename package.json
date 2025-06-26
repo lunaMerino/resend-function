@@ -14,5 +14,8 @@
   "description": "",
   "dependencies": {
     "resend": "^4.6.0"
+  },
+  "devDependencies": {
+    "astro": "^5.10.1"
   }
 }

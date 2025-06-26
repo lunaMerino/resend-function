@@ -1,2 +1,10 @@
 # environment variables
 .env
+# build output
+dist/
+
+# generated types
+.astro/
+
+# dependencies
+node_modules/
