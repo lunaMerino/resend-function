@@ -4,7 +4,7 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 exports.handler = async (event, context) => {
   // Permitir solicitudes desde tu frontend
   const headers = {
-    'Access-Control-Allow-Origin': 'https://lunamerino.github.io',
+    'Access-Control-Allow-Origin': 'https://aguadolopez.github.io',
     'Access-Control-Allow-Headers': 'Content-Type',
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
   };
@@ -24,7 +24,7 @@ exports.handler = async (event, context) => {
 
     await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: 'marialuna.garcia-arcicollar@a.vedrunasevillasj.es',
+      to: 'aguadolopezsebastian5@gmail.com',
       subject,
       html: `
         <p><strong>Nombre:</strong> ${nombre}</p>
